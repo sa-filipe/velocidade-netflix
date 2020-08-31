@@ -15,8 +15,8 @@ const header_center = document.querySelector("div.PlayerControlsNeo__progress-co
       title.innerHTML = "Velocidade";
       header_center.appendChild(title);
     } 
-    const verify_button75 = document.querySelector("button25")
-    if (verify_button75 == null ) {
+    const verify_button25 = document.querySelector("button25")
+    if (verify_button25 == null ) {
       const button = document.createElement("button25");
       button.innerHTML = "0.25x";
       button.classList.add("button");
@@ -25,9 +25,9 @@ const header_center = document.querySelector("div.PlayerControlsNeo__progress-co
       })
       header_center.appendChild(button);
     }
-    const verify_button05 = document.querySelector("button05")
-    if (verify_button05 == null ) {
-      const button = document.createElement("button05");
+    const verify_button5 = document.querySelector("button5")
+    if (verify_button5 == null ) {
+      const button = document.createElement("button5");
       button.innerHTML = "0.5x";
       button.classList.add("button");
       button.addEventListener("click", () => {
@@ -55,8 +55,8 @@ const header_center = document.querySelector("div.PlayerControlsNeo__progress-co
       })
       header_center.appendChild(button);
     }
-    const verify_button15 = document.querySelector("button125")
-    if (verify_button15 == null ) {
+    const verify_button125 = document.querySelector("button125")
+    if (verify_button125 == null ) {
       const button = document.createElement("button125");
       button.innerHTML = "1.25x";
       button.classList.add("button");
@@ -75,8 +75,8 @@ const header_center = document.querySelector("div.PlayerControlsNeo__progress-co
       })
       header_center.appendChild(button);
     } 
-    const verify_button15 = document.querySelector("button175")
-    if (verify_button15 == null ) {
+    const verify_button175 = document.querySelector("button175")
+    if (verify_button175 == null ) {
       const button = document.createElement("button175");
       button.innerHTML = "1.75x";
       button.classList.add("button");
