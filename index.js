@@ -15,6 +15,16 @@ const header_center = document.querySelector("div.PlayerControlsNeo__progress-co
       title.innerHTML = "Velocidade";
       header_center.appendChild(title);
     } 
+    const verify_button75 = document.querySelector("button25")
+    if (verify_button75 == null ) {
+      const button = document.createElement("button25");
+      button.innerHTML = "0.25x";
+      button.classList.add("button");
+      button.addEventListener("click", () => {
+        vid.playbackRate = 0.25;
+      })
+      header_center.appendChild(button);
+    }
     const verify_button05 = document.querySelector("button05")
     if (verify_button05 == null ) {
       const button = document.createElement("button05");
@@ -45,6 +55,16 @@ const header_center = document.querySelector("div.PlayerControlsNeo__progress-co
       })
       header_center.appendChild(button);
     }
+    const verify_button15 = document.querySelector("button125")
+    if (verify_button15 == null ) {
+      const button = document.createElement("button125");
+      button.innerHTML = "1.25x";
+      button.classList.add("button");
+      button.addEventListener("click", () => {
+        vid.playbackRate = 1.25;
+      })
+      header_center.appendChild(button);
+    } 
     const verify_button15 = document.querySelector("button15")
     if (verify_button15 == null ) {
       const button = document.createElement("button15");
@@ -52,6 +72,16 @@ const header_center = document.querySelector("div.PlayerControlsNeo__progress-co
       button.classList.add("button");
       button.addEventListener("click", () => {
         vid.playbackRate = 1.5;
+      })
+      header_center.appendChild(button);
+    } 
+    const verify_button15 = document.querySelector("button175")
+    if (verify_button15 == null ) {
+      const button = document.createElement("button175");
+      button.innerHTML = "1.75x";
+      button.classList.add("button");
+      button.addEventListener("click", () => {
+        vid.playbackRate = 1.75;
       })
       header_center.appendChild(button);
     } 
