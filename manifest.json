@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Velocidade Netflix",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": [ "https://www.netflix.com/*" ],
+      "css": [ "style.css" ],
+      "js": [ "index.js" ]
+    }
+  ],
+  "icons": {                  
+    "16": "icon.png",           
+    "24": "icon.png",         
+    "32": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png" }
+}
