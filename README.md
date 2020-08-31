@@ -1,4 +1,4 @@
-# velocidade-netflix
+# :movie_camera: Velocidade Netflix (chrome extension)
 
 ![netflix](https://i.imgur.com/Gk3azDu.png)
 
